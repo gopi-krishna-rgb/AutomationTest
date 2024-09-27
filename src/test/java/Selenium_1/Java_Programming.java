@@ -1,7 +1,7 @@
 package Selenium_1;
 
 
-public class JavaBasics {
+public class Java_Programming {
 
 
     //main method is nothing but the JAVA Compiler recognises the keyword 'main'
@@ -48,7 +48,6 @@ public class JavaBasics {
 
         System.out.println(spaces.trim().concat(" world"));
 
-
         System.out.println(str1.repeat(5));
 
         System.out.println(str1.indexOf('p'));
@@ -73,7 +72,6 @@ public class JavaBasics {
 
         System.out.println(Float.parseFloat(p2));
 
-
         int k1 = 5000;
         System.out.println(String.valueOf(k1));
 
@@ -86,6 +84,8 @@ public class JavaBasics {
 
         System.out.println(STR."Number Obtained is: \{a}");
 
+        //Switch()
+
         String str = "SwitchCase is Alternative for if else";
 
         switch (str) {
@@ -94,7 +94,7 @@ public class JavaBasics {
             case "is Alternative for if else" ->
                     System.out.println("witchCase is Alternative for if else ignoreit");
             default ->
-                    System.out.println("the value of str is not witchCase is Alternative for if else ignoreit");
+                    System.out.println("the value of str is not switchCase is Alternative for if else ignoreit");
         }
 
     }
